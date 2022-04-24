@@ -9,12 +9,18 @@
 /* Begin PBXBuildFile section */
 		72F2FF0A281534BA00FB05EA /* EbonyDependency.docc in Sources */ = {isa = PBXBuildFile; fileRef = 72F2FF09281534BA00FB05EA /* EbonyDependency.docc */; };
 		72F2FF0B281534BA00FB05EA /* EbonyDependency.h in Headers */ = {isa = PBXBuildFile; fileRef = 72F2FF08281534BA00FB05EA /* EbonyDependency.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72F2FF142815357D00FB05EA /* DependencyInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F2FF132815357D00FB05EA /* DependencyInjector.swift */; };
+		72F2FF162815363A00FB05EA /* ComposeDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F2FF152815363A00FB05EA /* ComposeDependency.swift */; };
+		72F2FF182815365300FB05EA /* Dependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F2FF172815365300FB05EA /* Dependency.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		72F2FF05281534BA00FB05EA /* EbonyDependency.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EbonyDependency.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		72F2FF08281534BA00FB05EA /* EbonyDependency.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EbonyDependency.h; sourceTree = "<group>"; };
 		72F2FF09281534BA00FB05EA /* EbonyDependency.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = EbonyDependency.docc; sourceTree = "<group>"; };
+		72F2FF132815357D00FB05EA /* DependencyInjector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjector.swift; sourceTree = "<group>"; };
+		72F2FF152815363A00FB05EA /* ComposeDependency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeDependency.swift; sourceTree = "<group>"; };
+		72F2FF172815365300FB05EA /* Dependency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dependency.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +55,9 @@
 			children = (
 				72F2FF08281534BA00FB05EA /* EbonyDependency.h */,
 				72F2FF09281534BA00FB05EA /* EbonyDependency.docc */,
+				72F2FF132815357D00FB05EA /* DependencyInjector.swift */,
+				72F2FF152815363A00FB05EA /* ComposeDependency.swift */,
+				72F2FF172815365300FB05EA /* Dependency.swift */,
 			);
 			path = EbonyDependency;
 			sourceTree = "<group>";
@@ -132,7 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72F2FF142815357D00FB05EA /* DependencyInjector.swift in Sources */,
 				72F2FF0A281534BA00FB05EA /* EbonyDependency.docc in Sources */,
+				72F2FF182815365300FB05EA /* Dependency.swift in Sources */,
+				72F2FF162815363A00FB05EA /* ComposeDependency.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
